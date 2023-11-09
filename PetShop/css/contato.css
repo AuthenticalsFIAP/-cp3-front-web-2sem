@@ -1,0 +1,92 @@
+.contato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.contato-titulo{
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;  font-weight: 400;
+}
+
+.mapas{
+  margin-bottom: 1rem;
+}
+
+.mapas h2{
+  color: black;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+input::placeholder{
+  color: black;
+  padding-left: 0.5rem;
+}
+textarea::placeholder{
+  color: black;
+  padding-left: 0.5rem;
+}
+
+form {
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+form div{
+  margin-top: 1rem;
+}
+
+
+input, textarea {
+  font: 1rem sans-serif;
+  width: 400px;
+  box-sizing: border-box;
+  height: 30px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+textarea {
+  vertical-align: top;
+  height: 5rem;
+}
+
+iframe{
+  height: 450px;
+  width: 600px;
+}
+
+@media screen and (max-width: 1300px) {
+  .contato{
+    flex-direction: column;
+    gap: 0;
+  }
+  form{
+    margin-bottom: 1rem;
+  }
+
+}
+@media screen and (max-width: 650px) {
+  iframe{
+    height: 450px;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  iframe{
+    height: 150px;
+    width: 300px;
+  }
+  input, textarea {
+    width: 250px;
+  }
+  .mapas h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+  }
+}

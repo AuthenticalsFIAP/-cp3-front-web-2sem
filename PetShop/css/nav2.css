@@ -1,0 +1,10 @@
+.nav2-list{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D6721B;
+    padding: 0rem 6rem;
+    height: 50px;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}

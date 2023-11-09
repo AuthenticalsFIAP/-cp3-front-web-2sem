@@ -1,0 +1,96 @@
+.div-parent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sobre{
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.div-1{
+    text-align: center;
+}
+
+.about{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.dog{
+    width:70%;
+    height:auto;
+}
+.div-2{
+    flex:1;
+}
+.goals{
+    margin:70px 25px;
+    display:flex;
+}
+#img-goals{
+    width:70px;
+    height:70px;
+    margin-left: 2rem;
+}
+
+.vision{
+    margin:70px 25px;
+    display:flex;
+
+}
+#img-vision{
+    width:70px;
+    height:70px;
+    margin-left:30px;
+}
+
+.love{
+    margin:70px 25px;
+    display:flex;
+}
+#img-love{
+    width:70px;
+    height:70px;
+    margin-left:30px;
+}
+.text{
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 950px) {
+    #sobre{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-attachment: fixed;
+    }
+    #sobre{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-attachment: fixed;
+    }
+    .div-parent{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .div-2 h4{
+        font-size: 0.75rem;
+    }
+    #img-love{
+        width:70px;
+        height:70px;
+        margin-left:30px;
+    }
+}

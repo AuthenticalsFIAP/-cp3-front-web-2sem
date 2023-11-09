@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.secao1{
+  background-color: white;
+}
+
+.titulo-secao1{
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 100%;
+}
+
+.cards1{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.card1{
+  width: 19%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+}
+
+
+.cartaz1{
+  width: 80%;
+  text-align: center;
+}
+
+
+.titulo-secao1 h1{
+  padding-top: 0.5rem;
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;  font-weight: 500;
+}
+
+.card1 h3{
+  color: black;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;  font-weight: 400;
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 650px) {
+  .titulo-secao1 h1{
+    font-size: 1.8rem;
+  }
+  .cards1{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+  }
+  .card1{
+    width: 50%;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    height: auto;
+  }
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    
+    font-size: 15px;
+
+    --var-heading: normal normal 600 1.5rem/1.6rem 'Outfit', sans-serif;
+    
+    --var-small-heading: normal normal 600 1rem/1.2rem 'Outfit', sans-serif;
+    
+    --var-para: normal normal 300 1rem/1rem 'Outfit', sans-serif;
+}
+
+.titulo-secao{
+  font-size: 2rem;
+  text-align: center;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+
+.cards{
+  background-image: url(/img/banner/Wave.svg);
+  max-width: 100%;
+  background-repeat: no-repeat;
+}
+
+.card-container {
+  width: 15%;
+  background-color: white;
+  box-shadow: 4px 4px 12px #cfc5c5aa;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 1rem 5rem;
+  text-align: center;
+}
+
+.card-container img {
+  padding-top: 0.3rem;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.card-container a {
+    color: black;
+}
+
+.card-container h1 {
+    font: var(--var-heading);
+    color: black;
+    text-align: start;
+    margin-top: 0.2rem;
+}
+
+.card-container h2 {
+    font: var(--var-small-heading);
+    color: black;
+    text-align: start;
+    margin-top: 0.1rem;
+}
+
+.card-container p {
+    font: var(--var-para);
+    color: black;
+    text-align: start;
+    margin-top: 0.1rem;
+
+}
+
+.card-container span {
+    color: white;
+}
+
+.cards{
+  max-width: 100%;
+  display: flex;
+  margin: 1rem 0;
+}
+
+.btn{
+  display: inline-block;
+  font-size: 1.2rem;
+  background-color: rgb(196, 132, 13);
+  height: 30px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn1{
+  display: inline-block;
+  font-size: 1.2rem;
+  background-color:transparent;
+  height: 30px;
+  border: black solid 1px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1580px) {
+  .card-container{
+    display: none;
+  }
+  .produtos-carrossel1{
+    text-align: center;
+    display: block;
+  }
+  #img-produtos1{
+    width: 40%;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: auto;
+ }
+}
